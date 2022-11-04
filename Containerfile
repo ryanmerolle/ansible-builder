@@ -1,5 +1,5 @@
-ARG PYTHON_BASE_IMAGE=quay.io/ansible/python-base:latest
-ARG PYTHON_BUILDER_IMAGE=quay.io/ansible/python-builder:latest
+ARG PYTHON_BASE_IMAGE=ghcr.io/ryanmerolle/python-base-image:latest
+ARG PYTHON_BUILDER_IMAGE=ghcr.io/ryanmerolle/python-builder-image:latest
 
 FROM $PYTHON_BUILDER_IMAGE as builder
 # =============================================================================
